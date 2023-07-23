@@ -1,0 +1,52 @@
+body {
+  font-family: Helvetica;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.site-header {
+  border-bottom: 1px solid #ccc;
+  padding: 0.5em 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-identity h1 {
+  font-size: 1.5em;
+  margin: 0.6em 0;
+  display: inline-block;
+}
+
+.site-navigation ul,
+.site-navigation li {
+  margin: 0;
+  padding: 0;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
+}
+
+.Footer-Class {
+  text-align: center;
+  border-top: #ccc 1px solid;
+  padding-top: 50px;
+}
+
+.Footer-Class a {
+  margin: 0.6em 0;
+  font-size: 1.5em;
+  display: inline-block;
+}
+
+.ProductItemCss {
+  margin: 5px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+}
