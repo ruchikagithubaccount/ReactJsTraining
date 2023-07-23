@@ -11,13 +11,17 @@ import "./css/style.css";
 
 const FragmentTag = function () {
   return (
-       <>
-          <Header/>
-            <MainPage/>
-          <Footer/>
-       </>
-      
-  )
+    <>
+      <Header />
+
+      <div className="container">
+       
+
+        <MainPage />
+      </div>
+      <Footer />
+    </>
+  );
 };
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
